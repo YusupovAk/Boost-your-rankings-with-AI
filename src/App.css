@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  background: rgb(0, 0, 0);
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+nav{
+  display: flex;
+  align-items: start;
+  .cnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .navmenues{
+      border: solid 1px #7a79795a;
+      border-radius: 20px;
+      padding: 14px 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      a{
+        color: #7a7979;
+      }
+      select{
+        background: transparent;
+        border: none;
+        color: #7a7979;
+        font-size: 1.2rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      
+    }
+    button {
+      background: transparent;
+      padding: 0;
+    img{
+        object-fit: cover;
+      }
+      }
+  }
+}
+
+.S1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    .new button{
+      background: transparent;
+      color: #9855FF;
+      border: solid 1px #9955ff75;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+    }
+    .big{
+      background: linear-gradient(0deg, #B372CF 0%, rgb(255, 255, 255) 40%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2rem;
+      width: 800px;
+      text-align: center;
+    }
+    .small p{
+      padding: 25px;
+      color: white;
+      font-size: 1.5rem;
+      width: 700px;
+      text-align: center;
+    }
+    .start button{
+      background: white;
+      margin: 50px;
+    }
+    .hero{
+      position: relative;
+      top: -525px;
+      height: 700px;
+      z-index: -1;
+    .qora{
+      position: relative;
+      top: -500px;
+      height: 500px;
+      width: 100%;
+      background:linear-gradient(0deg, #000000 0%, rgba(255, 85, 85, 0) 50%);
+    }
+    }
+    
+  }
+  
+}
+.chiziq{
+  margin: 10px;
+  height: 1px;
+  width: 100%;
+  background: #7a79795a;
+}
+.S2{
+  color: white;
+}
